@@ -1,7 +1,9 @@
 <?php
     include("connect.php");
+
     $conexion = conectarBD("ffib");
     $bd =  seleccionarBD($conexion, "ffib");
+    
     $nom = $_GET['Nom'];
     $ape = $_GET['Cognom'];
     $domicili = $_GET['Domicili'];
